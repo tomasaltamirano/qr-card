@@ -1,0 +1,72 @@
+/* GOOLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* COLORES */
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+}
+
+
+body{
+    background: var(--LightGray);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: var(--White);
+    max-width: 27rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.content img{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+}
+
+.content h1{
+    color: var(--DarkBlue);
+    font-weight: 700;
+    font-size: 1.9rem;
+    margin: 1rem;
+}
+
+.content p{
+    width: 90%;
+    color: var(--GrayishBlue);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
